@@ -1,0 +1,8 @@
+print("How much seconds ?")
+second = int(input())
+minute = int(second//60)
+second = int(second%60)
+hour = int(minute//60)
+print(str(second) + " seconds(s)")
+print(str(minute) + " minute(s)")
+print(str(hour) + "hour(s)")
