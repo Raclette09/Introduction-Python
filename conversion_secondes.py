@@ -1,8 +1,7 @@
-print("How much seconds ?")
+print("How many seconds ?")
 second = int(input())
-minute = int(second//60)
-second = int(second%60)
-hour = int(minute//60)
-print(str(second) + " seconds(s)")
-print(str(minute) + " minute(s)")
-print(str(hour) + "hour(s)")
+minute = second//60
+second = second%60
+hour = minute//60
+minute = minute%60
+print(str(hour) + " hour(s), " + str(minute) + " minute(s), " +str(second) + " second(s)")
