@@ -20,5 +20,6 @@ while guess != number_to_guess :
         print("It's less")
 if resign:
     print(f"Dommage le nombre était {number_to_guess}.")
+    #print(f"Dommage, Sasha ne t'aime toujours pas et c'est ok, au cas oû le nombre était {number_to_guess}.")
 else :
     print("Good job, you have found the number.")

@@ -1,6 +1,5 @@
-input("Do you want to continue ? ")
-while input != "no" :
-    ctn = input("Do you want to continue ? ")
-    continue
-    if break
-    print("okay bye ")
+answer = input("Do you want to continue ? ")
+while answer != "no" :
+    answer = input("Do you want to continue ? ")
+    if  answer == "no":
+        print("Okay bye !")
